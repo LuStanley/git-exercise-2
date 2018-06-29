@@ -1,24 +1,15 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+For collaborator from lead developer
 
-Things you may want to cover:
+  * git clone https://github.com/LuStanley/git-exercise-2.git
 
-* Ruby version
+  * cd to git-exercise-2 file
 
-* System dependencies
+    Terminal
 
-* Configuration
+      * bundle install 
 
-* Database creation
+      * rails db:migrate
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+      * rails db:seed
