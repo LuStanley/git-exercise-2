@@ -6,8 +6,10 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
+User.destroy_all
 
-User.create(name: "user1", role: "admin")
+user1 = User.create(name: "user1", role: "admin")
+puts "#{user1.name} created"
 
 9.times do |i|
   user = User.create!(name: "user#{i+2}")
